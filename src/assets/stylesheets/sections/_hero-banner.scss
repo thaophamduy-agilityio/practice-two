@@ -58,12 +58,10 @@
     .img-item {
       @include only-for-tablet() {
         width: 560px;
-        height: 588px;
       }
 
       @include only-for-desktop() {
         width: 828px;
-        height: 879px;
       }
     }
 
