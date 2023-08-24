@@ -24,18 +24,18 @@ export const SaveTimeFeature = memo(({ OnSignUp, saveTimes }: SaveTimeFeaturePro
         classItem="save-time"
         srcSet = {{
           desktop: {
-            img: '/src/assets/images/save-time/save-time-desktop.webp',
-            img2x: '/src/assets/images/save-time/save-time-desktop-2x.webp',
+            img: '/images/save-time/save-time-desktop.webp',
+            img2x: '/images/save-time/save-time-desktop-2x.webp',
           },
           tablet: {
-            img: '/src/assets/images/save-time/save-time-tablet.webp',
-            img2x: '/src/assets/images/save-time/save-time-tablet-2x.webp',
+            img: '/images/save-time/save-time-tablet.webp',
+            img2x: '/images/save-time/save-time-tablet-2x.webp',
           },
         }}
         imageSrc = {{
           mobile: {
-            img: '/src/assets/images/save-time/save-time-mobile.webp',
-            img2x: '/src/assets/images/save-time/save-time-mobile-2x.webp',
+            img: '/images/save-time/save-time-mobile.webp',
+            img2x: '/images/save-time/save-time-mobile-2x.webp',
           }
         }}
         imageSize = {{

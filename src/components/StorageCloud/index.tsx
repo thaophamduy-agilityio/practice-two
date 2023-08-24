@@ -18,18 +18,18 @@ export const StorageCloud = memo(({ onStorageCloud }: StorageCloudProps): JSX.El
       classItem="storage-cloud"
       srcSet = {{
         desktop: {
-          img: '/src/assets/images/storage-cloud/storage-cloud-desktop.webp',
-          img2x: '/src/assets/images/storage-cloud/storage-cloud-desktop-2x.webp',
+          img: '/images/storage-cloud/storage-cloud-desktop.webp',
+          img2x: '/images/storage-cloud/storage-cloud-desktop-2x.webp',
         },
         tablet: {
-          img: '/src/assets/images/storage-cloud/storage-cloud-tablet.webp',
-          img2x: '/src/assets/images/storage-cloud/storage-cloud-tablet-2x.webp',
+          img: '/images/storage-cloud/storage-cloud-tablet.webp',
+          img2x: '/images/storage-cloud/storage-cloud-tablet-2x.webp',
         },
       }}
       imageSrc = {{
         mobile: {
-          img: '/src/assets/images/storage-cloud/storage-cloud-mobile.webp',
-          img2x: '/src/assets/images/storage-cloud/storage-cloud-mobile-2x.webp',
+          img: '/images/storage-cloud/storage-cloud-mobile.webp',
+          img2x: '/images/storage-cloud/storage-cloud-mobile-2x.webp',
         }
       }}
       imageSize = {{

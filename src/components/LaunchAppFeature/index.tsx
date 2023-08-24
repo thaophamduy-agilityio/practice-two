@@ -18,18 +18,18 @@ export const LaunchAppFeature = memo(({ onLaunchApp }: LaunchAppFeatureProps): J
       classItem="launch-app"
       srcSet = {{
         desktop: {
-          img: '/src/assets/images/launch-app/launch-app-desktop.webp',
-          img2x: '/src/assets/images/launch-app/launch-app-desktop-2x.webp',
+          img: '/images/launch-app/launch-app-desktop.webp',
+          img2x: '/images/launch-app/launch-app-desktop-2x.webp',
         },
         tablet: {
-          img: '/src/assets/images/launch-app/launch-app-tablet.webp',
-          img2x: '/src/assets/images/launch-app/launch-app-tablet-2x.webp',
+          img: '/images/launch-app/launch-app-tablet.webp',
+          img2x: '/images/launch-app/launch-app-tablet-2x.webp',
         },
       }}
       imageSrc = {{
         mobile: {
-          img: '/src/assets/images/launch-app/launch-app-mobile.webp',
-          img2x: '/src/assets/images/launch-app/launch-app-mobile-2x.webp',
+          img: '/images/launch-app/launch-app-mobile.webp',
+          img2x: '/images/launch-app/launch-app-mobile-2x.webp',
         }
       }}
       imageSize = {{
