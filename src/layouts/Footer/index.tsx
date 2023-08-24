@@ -42,12 +42,8 @@ export const Footer = memo(({ links }: FooterProps): JSX.Element => {
             </div>
           </div>
           <div className="footer-site-button">
-            <a className="googlePlay" href="/" target="_blank">
-              <Image altText="Google Play" imageSrc={googlePlay} size= {{width: 167, height: 56}} />
-            </a>
-            <a className="appStore" href="/" target="_blank">
-              <Image altText="App Store" imageSrc={appStore} size= {{width: 167, height: 56}} />
-            </a>
+            <Image altText="Google Play" imageSrc={googlePlay} size= {{width: 167, height: 56}} />
+            <Image altText="App Store" imageSrc={appStore} size= {{width: 167, height: 56}} />
           </div>
         </div>
         <div className="footer-right">
@@ -62,15 +58,9 @@ export const Footer = memo(({ links }: FooterProps): JSX.Element => {
           />
         </div>
         <div className="footer-site-icon">
-          <a className="footer-icon" href="/" target="_blank">
-            <BsFacebook />
-          </a>
-          <a className="footer-icon" href="/" target="_blank">
-            <BsTwitter />
-          </a>
-          <a className="footer-icon" href="/" target="_blank">
-            <BsInstagram />
-          </a>
+          <BsFacebook />
+          <BsTwitter />
+          <BsInstagram />
         </div>
       </div>
     </footer>
