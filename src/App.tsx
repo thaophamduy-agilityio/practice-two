@@ -2,7 +2,7 @@ import '@stylesheets/app.scss'
 
 // Libs
 import { Suspense } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { withErrorBoundary } from 'react-error-boundary';
 
 // Layouts
@@ -32,7 +32,6 @@ const App = (): JSX.Element => {
             <Route path={ROUTES.CONTACT} element={<ContactUs />} />
             <Route path={ROUTES.LOGIN} element={<LoginPage />} />
           </Route>
-          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
