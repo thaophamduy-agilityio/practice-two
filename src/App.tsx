@@ -32,8 +32,8 @@ const App = (): JSX.Element => {
             <Route path={ROUTES.CONTACT} element={<ContactUs />} />
             <Route path={ROUTES.LOGIN} element={<LoginPage />} />
           </Route>
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
-        <Route path="*" element={<Navigate to="/" replace />} />
       </Suspense>
     </BrowserRouter>
   );
