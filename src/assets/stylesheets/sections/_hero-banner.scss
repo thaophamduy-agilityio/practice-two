@@ -56,14 +56,16 @@
     }
 
     .img-item {
-      aspect-ratio: 436 / 376;
+      aspect-ratio: 109 / 94;
+      object-fit: cover;
 
       @include only-for-tablet() {
+        aspect-ratio: 80 / 69;
         width: 560px;
       }
 
       @include only-for-desktop() {
-        aspect-ratio: 828 / 879;
+        aspect-ratio: 276 / 293;
         width: 828px;
       }
     }
