@@ -63,8 +63,12 @@
     &-image {
       @extend %text-center;
       order: 1;
-      margin: 30px -150%;
-      width: 400%;
+      margin: 30px 0;
+
+      @include only-for-tablet() {
+        margin: 30px -150%;
+        width: 400%;
+      }
   
       .img-item {
         @include only-for-tablet() {
